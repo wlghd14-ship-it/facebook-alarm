@@ -2,7 +2,7 @@ name: Facebook to Telegram Notifier
 
 on:
   schedule:
-    - cron: '0 * * * *' # 매시간 정각마다 실행 (UTC 기준)
+    - cron: '*/10 * * * *' # 매시간 정각마다 실행 (UTC 기준)
   workflow_dispatch: # 수동으로 즉시 실행할 수 있는 버튼 생성
 
 jobs:
